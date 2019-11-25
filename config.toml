@@ -1,0 +1,113 @@
+baseurl = "https://glanfaloth.onrender.com  "
+title = "Glânfaloth Cevnas"
+
+theme = "hugo-coder-portfolio"
+
+DefaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Glanfaloth Cevnas"
+    description = "Lanlan's Website"
+    keywords = "designer, engineer"
+    info = "DESIGNER & ENGINEER"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "Nai tiruvantel ar varyuvantel i Valar tielyanna nu vilya."
+    fixedbarContent = "Do you want to know me more private?→"
+    fixedbarContentAfter = "Add me on WeChat! Hint: WeChat ID is Tinker Bell's catchword."
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Bottom sns share
+    snsShare = true
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = false
+    enableFacebookShare = false
+    enableHatenaShare = false
+    enableLineShare = false
+    enableLinkedInShare = false
+
+    thumbnail = "images/tn.png"
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    ## langseparator = "|"
+
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram"
+    weight = 1
+    url = "https://www.instagram.com/usillyass/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/yelan-tao/"
+[[params.social]]
+    name = "Zhihu"
+    icon = "fab fa-zhihu"
+    weight = 5
+    url = "https://www.zhihu.com/people/tao-ye-lan/activities"
+[[params.social]]
+    name = "Good reads"
+    icon = "fab fa-goodreads"
+    weight = 6
+    url = "https://www.goodreads.com/user/show/96149266-gl-nfaloth-cevnas"
+
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "EN" # The language name to be displayed in the selector.
+        title = "Lanlan"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+            author = "Lanlan"
+            info = "DESIGNER & ENGINEER"
+            description = "Lanlan's personal website"
+            keywords = "blog,portfolio,ideas"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1.0
+                url = "about"
+
+            [[languages.en.menu.main]]
+                name = "Projects"
+                weight = 2.0
+                url = "projects"
+
+            [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 3.0
+                url = "posts"
+            [[languages.en.menu.main]]
+                name = "Art Gallery"
+                weight = 4.0
+                url = "artworks"
+            [[languages.en.menu.main]]
+                name = "|"
+                weight = 5.0
+            [[languages.en.menu.main]]
+                name = "Contact me"
+                weight = 6.0
+                url = "contact"
